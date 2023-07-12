@@ -5,7 +5,7 @@ function Navbar() {
       <div className='navbar'>        
         <h1 className='navbar__title'>Cassandra LAFFARGUE</h1>
             <ul className="navbar__link">
-                <li> A propos de moi</li>
+                <li className='btn__aboutMe'> A propos de moi</li>
                 <li>Mes services</li>
                 <li>Mes compétences</li>
                 <li>Portfolio</li>
