@@ -1,4 +1,6 @@
 .navbar {
+    position: absolute;
+    top: 0;
     background-color: black;
     color: #fff;
     width: 20%;
@@ -23,6 +25,7 @@
   }
     .navbar__link li {
         margin:45px 0;
+        cursor: pointer;
     }
     .navbar__btn li{
         padding: 10px;

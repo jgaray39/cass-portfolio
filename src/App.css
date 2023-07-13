@@ -1,8 +1,10 @@
-.app-container{
-  background-image: url('./assets/img_fond.webp'); /* Chemin vers votre image de fond */
+.backgroungImg{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-width: 100vh;
-  min-height: 100vh;
+  opacity: 0.8;
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
+
