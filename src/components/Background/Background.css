@@ -1,0 +1,11 @@
+.backgroundImg {
+    background-image: url('../../assets/img_fond.webp');
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    opacity: 0.8;
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100%;
+  }

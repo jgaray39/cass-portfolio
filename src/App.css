@@ -1,10 +1,11 @@
 .backgroungImg{
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: cover;
   background-position: center;
   opacity: 0.8;
   max-width: 100%;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
 }
 

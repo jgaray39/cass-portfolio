@@ -15,9 +15,7 @@ function Cards() {
             {data.map(item => (
                 <Link to={`./Sheet/${item.id}`}onClick={() => handleClick(item.id) }key={item.id}>
              <figure className='card' key={item.id} >
-                <div className='gradient'></div>
                 <img className='imgCard' src={item.cover} alt={item.title} />
-                <figcaption className='cardTitle'>{item.title}</figcaption>
             </figure>
                </Link>
             ))}</div>

@@ -6,7 +6,7 @@ import App from './App';
 import Services from './pages/Services/Services';
 import reportWebVitals from './reportWebVitals';
 import Footer from './components/Footer/Footer';
-import backgroundImg from '../src/assets/img_fond.webp';
+import Background from './components/Background/Background';
 import Portfolio from './pages/Portfolio/Portfolio';
 import ProjectDetails from './components/ProjectDetails/ProjectDetails'
 import LodgingProvider from './Project/Project';
@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-    <img className='backgroungImg' src={backgroundImg} alt='lignes de code'/>
+    <Background />
     <LodgingProvider>
           <Routes>
             <Route path="/" element={<App />} />
