@@ -10,6 +10,7 @@ import Background from './components/Background/Background';
 import Portfolio from './pages/Portfolio/Portfolio';
 import ProjectDetails from './components/ProjectDetails/ProjectDetails'
 import LodgingProvider from './Project/Project';
+import Error404 from './components/Error404/Error404';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,8 +22,8 @@ root.render(
             <Route path="/" element={<App />} />
             <Route path="/Services" element={<Services />} />
             <Route path='/Portfolio' element={<Portfolio />} />
-            <Route path="/ProjectDetails/:id" element={<ProjectDetails />}/>
-            {/* <Route path="*" element={<Error404 />} /> */}
+            <Route path='/Portfolio/ProjectDetails/:id' element={<ProjectDetails />}/>
+            <Route path='*' element={<Error404 />} />
           </Routes>
         <Footer />
       </LodgingProvider>
@@ -30,7 +31,4 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

@@ -3,7 +3,7 @@
     top: 0;
     background-color: black;
     color: #fff;
-    width: 20%;
+    width: 250px;
     height: 100vh;
     margin-left: 6%;
     display: flex;
@@ -13,7 +13,7 @@
   }
   .navbar__title {
     font-family: 'Courier New', Courier, monospace, sans-serif;
-    font-size: 50px;
+    font-size: 43px;
     text-transform: uppercase;
       }
       .special-letter {
@@ -30,44 +30,135 @@
     font-size: 25px;
     list-style-type: none;
     padding: 0;
-    width: 60%;
     margin: auto;
   }
-    .navbar__link li {
+    .navbar__link li  {
         margin:45px 0;
         cursor: pointer;
-        white-space: nowrap;
+        white-space: nowrap;  
     }
+    
     .navbar__link li:hover{
       color:red;
       font-weight: bold;
     }
+    .white-link {
+      text-decoration: none;
+        color: white;
+    }
+    .white-link:hover {
+        color: red;
+    }
     .navbar__btn li{
-        padding: 10px;
+        padding: 12px 25px;
+    }
+    .navbar__btn li:hover {
+      font-weight: 500;
     }
     .navbar__btn--github {
         border:2px solid rgba(255, 0, 0);;
         background-color: rgba(255, 0, 0, 0.2);
+        
     }
     .navbar__btn--contact {
         border:2px solid rgba(44, 144, 238);
         background-color: rgba(44, 144, 238, 0.2);
-        margin-bottom: 100px;
     }
     .navbar__btn--github a, .navbar__btn--contact a{
       text-decoration: none;
-        color: #fff;
+      color: #fff;
+    }
+    .navbar__btn--github:hover {
+    box-shadow: 6px 8px 10px rgba(255, 0, 0, 0.4);
+    }
+    .navbar__btn--contact:hover {
+      box-shadow: 6px 8px 10px rgba(44, 144, 238, 0.4);
+
     }
 
 
-   @media screen and (max-width: 1400px) {
+   @media screen and (max-width: 1099px) {
+    .navbar {
+      width: 180px;
+    }
     .navbar__title{
-        font-size: 35px;
+        font-size: 30px;
+    }
+    .navbar__link {
+      font-size: 20px;
     }
  } 
 
- @media screen and (max-width: 1255px) {
-  .navbar__link li{
-      font-size: 14px;
+ @media screen and (max-width: 799px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2px;
+    background-color: black;
+    color: #fff;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
   }
-} 
+  .navbar__title {
+    font-size: 20px;
+    margin: auto;
+  }
+  .navbar__link {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 0; 
+    background-color: black;
+  }
+    .navbar__link li  {
+        margin: 20px;
+    }
+    .toggleMenu {
+      display: none;
+    }
+    .navbar__link:hover .toggleMenu {
+      display: block;
+    }
+    .navbar__btn {
+      display: flex;
+      flex-direction:row ;
+      background-color: transparent;
+    }
+    .navbar__btn li{
+      padding: 2px 15px;
+  }
+  .navbar__btn--github {
+      border:2px solid rgba(255, 0, 0);;
+      background-color: rgba(255, 0, 0, 0.2);
+  }
+  .navbar__btn--contact {
+      border:2px solid rgba(44, 144, 238);
+      background-color: rgba(44, 144, 238, 0.2);
+  }
+  .navbar__btn--github a, .navbar__btn--contact a{
+    text-decoration: none;
+    color: #fff;
+  }
+ }
+
+
+ @media screen and (max-width: 499px) {
+
+  .navbar__title {
+    font-size: 20px;
+    margin: auto 5px;
+  }
+  .navbar__link {
+    margin: auto 5px;
+  }
+  .navbar__btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .navbar__btn li {
+        margin: 0;
+  }
+}

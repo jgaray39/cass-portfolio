@@ -1,11 +1,12 @@
 .modal {
     border-radius: 20px;
     position: absolute;
-    top: 15%;
-    left:155%;
+    top: 13%;
+    left:40%;
+    transform: translateX(+50%);
     background-color: black;
     width: 50vw;
-    height: 70vh;
+    height: auto;
     color: #FFFFFF;
 }
 .modalTitle {
@@ -29,7 +30,7 @@
 }
 .modalDescription li, .skillsTitle{
     margin: 35px;
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
     line-height: 1.5;
     font-family: 'alumni sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -56,4 +57,57 @@
 }
 .skillsImgNode {
     min-width: 75px;
+}
+
+@media screen and (max-width: 1099px) {
+    .modalDescription li, .skillsTitle{
+        font-size: 16px;
+    }
+    .modalPicture {
+        position: absolute;
+        right: -50px;
+        top: -50px;
+        width: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .modalTitle {
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .modal {
+        width: 80%;
+        top: 180px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .modalDescription li, .skillsTitle{
+        font-size: 14px;
+    }
+    .modalPicture {
+        position: absolute;
+        right: -40px;
+        top: -40px;
+        width: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .modalTitle {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .modalTitle {
+        font-size: 20px;
+    }
+    .modalPicture {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 55px;
+        width: 60px;
+}
 }

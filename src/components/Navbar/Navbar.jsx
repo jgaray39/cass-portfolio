@@ -26,10 +26,10 @@ function Navbar() {
         <span className="special-letter">a</span>
       </h1>
       <ul className="navbar__link">
-        <li onClick={handleClickAboutMe}>A propos de moi</li>
-        <li> <Link to="./Services">Mes services</Link> </li>
-        <li onClick={handleClickSkills}>Mes compétences</li>
-        <li> <Link to="./Portfolio">Portfolio</Link> </li>
+        <li className="openToggleMenu" onClick={handleClickAboutMe}>A propos de moi</li>
+        <li className="toggleMenu" onClick={handleClickSkills}>Mes compétences</li>
+        <li className="toggleMenu"> <Link className="white-link" to="./Services">Mes services</Link> </li>
+        <li className="toggleMenu"> <Link className="white-link" to="./Portfolio">Portfolio</Link> </li>
       </ul>
       <ul className="navbar__link navbar__btn">
         <li className='navbar__btn--github'>

@@ -1,6 +1,7 @@
 [
     {
-        "title": "Projet 2",
+        "id": "02",
+        "title": "Front-end",
         "cover":[ 
             "./assets/projet_2_01.png"
         ],
@@ -15,7 +16,8 @@
         ]
     },
     {
-        "title": "Projet 3",
+        "id": "03",
+        "title": "Front-end",
         "cover":[ 
             "./assets/projet_3_01.png"
         ],
@@ -31,7 +33,8 @@
         ]
     },
     {
-        "title": "Projet 5",
+        "id": "05",
+        "title": "Debugge, Optimisation et Référencement",
         "cover": [
             "./assets/projet_5_01.png"
         ],
@@ -48,7 +51,8 @@
             "wave"]
     },
     {
-        "title": "Projet 6",
+        "id": "06",
+        "title": "Front-end",
         "cover": [
             "./assets/projet_06_02.png"
         ],
@@ -66,7 +70,8 @@
         ]
     },
     {
-        "title": "Projet 7",
+        "id": "07",
+        "title": "Back-end",
         "cover": [
             "./assets/projet_7_01.png"
         ],
