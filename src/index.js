@@ -1,13 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
+import Services from './pages/Services/Services';
 import reportWebVitals from './reportWebVitals';
+import Footer from './components/Footer/Footer';
+import backgroundImg from '../src/assets/img_fond.webp';
+import Portfolio from './pages/Portfolio/Portfolio';
+import ProjectDetails from './components/ProjectDetails/ProjectDetails'
+import LodgingProvider from './Project/Project';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+    <img className='backgroungImg' src={backgroundImg} alt='lignes de code'/>
+    <LodgingProvider>
+          <Routes>
+            <Route path="/" element={<App />} />
+            <Route path="/Services" element={<Services />} />
+            <Route path='/Portfolio' element={<Portfolio />} />
+            <Route path="/ProjectDetails/:id" element={<ProjectDetails />}/>
+            {/* <Route path="*" element={<Error404 />} /> */}
+          </Routes>
+        <Footer />
+      </LodgingProvider>
+    </Router>
   </React.StrictMode>
 );
 

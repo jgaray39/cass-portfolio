@@ -12,7 +12,8 @@
     color: red;
     text-align: center;
     font-family: 'Courier New', Courier, monospace, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
+    margin: 20px;
 }
 .modalPicture {
     position: absolute;
@@ -27,8 +28,8 @@
     margin: 75px 0;
 }
 .modalDescription li, .skillsTitle{
-    margin: 45px;
-    font-size: 25px;
+    margin: 35px;
+    font-size: 20px;
     text-align: center;
     line-height: 1.5;
     font-family: 'alumni sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

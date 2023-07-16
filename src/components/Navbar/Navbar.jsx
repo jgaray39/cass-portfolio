@@ -2,33 +2,42 @@ import './Navbar.css';
 import ModalAboutMe from '../Modal/ModalAboutMe';
 import ModalSkills from '../Modal/ModalSkills';
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom'
+
 
 function Navbar() {
-  const [showAboutMeModal, setShowAboutMeModal] = useState(false);
-  const [showSkillsModal, setShowSkillsModal] = useState(true);
+  const [showAboutMeModal, setShowAboutMeModal] = useState(true);
+  const [showSkillsModal, setShowSkillsModal] = useState(false);
 
   const handleClickAboutMe = () => {
     setShowAboutMeModal(true);
     setShowSkillsModal(false);
   };
-
   const handleClickSkills = () => {
     setShowSkillsModal(true);
     setShowAboutMeModal(false);
   };
+  
 
   return (
     <div className='navbar'>
-      <h1 className='navbar__title'>Cassandra LAFFARGUE</h1>
+      <h1 className='navbar__title'>
+          Cassandr
+        <span className="special-letter">a</span>
+      </h1>
       <ul className="navbar__link">
         <li onClick={handleClickAboutMe}>A propos de moi</li>
-        <li>Mes services</li>
+        <li> <Link to="./Services">Mes services</Link> </li>
         <li onClick={handleClickSkills}>Mes compétences</li>
-        <li>Portfolio</li>
+        <li> <Link to="./Portfolio">Portfolio</Link> </li>
       </ul>
       <ul className="navbar__link navbar__btn">
-        <li className='navbar__btn--github'>GitHub</li>
-        <li className='navbar__btn--contact'>Contact</li>
+        <li className='navbar__btn--github'>
+          <a href="https://github.com/Ash-Cassandra">GitHub</a>
+        </li>
+        <li className='navbar__btn--contact'>
+          <a href="mailto:c.larcheveque@orange.fr">Contact</a>
+        </li>      
       </ul>
 
       {showAboutMeModal && <ModalAboutMe onClose={() => setShowAboutMeModal(false)} />}

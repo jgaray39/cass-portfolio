@@ -14,10 +14,20 @@
   .navbar__title {
     font-family: 'Courier New', Courier, monospace, sans-serif;
     font-size: 50px;
+    text-transform: uppercase;
+      }
+      .special-letter {
+        color: red;
+      }
+      .navbar__title:hover{
+        color: red;
+      }
+      .navbar__title:hover .special-letter{
+        color:#fff;
       }
   .navbar__link {
     font-family: 'alumni sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 25px;
     list-style-type: none;
     padding: 0;
     width: 60%;
@@ -26,6 +36,11 @@
     .navbar__link li {
         margin:45px 0;
         cursor: pointer;
+        white-space: nowrap;
+    }
+    .navbar__link li:hover{
+      color:red;
+      font-weight: bold;
     }
     .navbar__btn li{
         padding: 10px;
@@ -37,6 +52,11 @@
     .navbar__btn--contact {
         border:2px solid rgba(44, 144, 238);
         background-color: rgba(44, 144, 238, 0.2);
+        margin-bottom: 100px;
+    }
+    .navbar__btn--github a, .navbar__btn--contact a{
+      text-decoration: none;
+        color: #fff;
     }
 
 

@@ -1,0 +1,61 @@
+[
+    {
+        "title": "Projet 2",
+        "cover":[ 
+            "./assets/projet_2_01.png"
+        ],
+        "pictures": [
+            "./assets/projet_2_01.png",
+            "./assets/projet_2_01.png"
+        ],
+        "Description": "Developper le front-end, pour un site de recherche d'hébergements et d'activités",
+        "Compétences utilisées": "html, css"
+    },
+    {
+        "title": "Projet 3",
+        "cover":[ 
+            "./assets/projet_3_01.png"
+        ],
+        "pictures": [
+            "./assets/projet_3_01.png",
+            "./assets/projet_3_02.png",
+            "./assets/projet_3_03.png",
+            "./assets/projet_3_04.png"
+        ],
+        "Description": "Developper le front-end d'un portfolio pour une photographe, utilisation de javaScript pour recupérer les travaux depuis l'API et mettre en page les projets. Coder la page de connexion utilisateur pour permettre à la photographe de modifier, ajouter ou supprimer des projets sur le site.",
+        "Compétences utilisées": "javaScript"
+    },
+    {
+        "title": "Projet 5",
+        "cover": [
+            "./assets/projet_5_03.png"
+        ],
+        "pictures": [
+            "./assets/projet_5_01.png",
+            "./assets/projet_5_02.png",
+            "./assets/projet_5_03.png"
+        ],
+        "Description": "Debugge et optimisation d'un site de photographe. Référencement SEO et meta reseaux sociaux. Bonnes pratiques liées à l'accessibilité.",
+        "Compétences utilisées": "DevTools, meta, lighthouse, wave"
+    },
+    {
+        "title": "Projet 6",
+        "pictures": [
+            "./assets/projet_06_01.png",
+            "./assets/projet_06_02.png",
+            "./assets/projet_06_03.png"
+            
+        ],
+        "Description": "Refonte d'un site de location de logement avec React App, création de composent, de collaps et de caroussel.",
+        "Compétences utilisées": "Create react app, react rooter, context react"
+    },
+    {
+        "title": "Projet 7",
+        "pictures": [
+            "./assets/projet_7_01.png"
+            
+        ],
+        "Description": "bla",
+        "Compétences utilisées": "bla"
+    }
+]
