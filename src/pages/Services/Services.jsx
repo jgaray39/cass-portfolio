@@ -19,6 +19,8 @@ function Services () {
                 </Link>
                 </div>
             <div className='cardServices'>
+            <Link className='linkPortfolio' to="/portfolio">
+
                 <h3 className='cardTitle'>Design Web</h3>
                     <ul className='CardDescription'>
                         <li>Creation de logo</li>
@@ -26,6 +28,7 @@ function Services () {
                         <li>Conception de visuel pour reseau sociaux</li>
                         <li>Création de flyers et cartes de visite</li>
                     </ul>
+            </Link>
             </div>
                 <BackButton />
             </div>

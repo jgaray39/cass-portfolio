@@ -20,6 +20,16 @@
      object-fit: cover;
  }
 
+ .buttonsContainer {
+    display: flex;
+    flex-direction: row ;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    margin: auto 20px;
+ }
+
  
   @media screen and (min-width: 900px){ 
      .container{

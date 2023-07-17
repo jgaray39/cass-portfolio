@@ -1,7 +1,7 @@
 [
     {
         "id": "02",
-        "title": "Front-end",
+        "title": "dev web",
         "cover":[ 
             "./assets/projet_2_01.png"
         ],
@@ -17,7 +17,7 @@
     },
     {
         "id": "03",
-        "title": "Front-end",
+        "title": "dev web",
         "cover":[ 
             "./assets/projet_3_01.png"
         ],
@@ -34,7 +34,7 @@
     },
     {
         "id": "05",
-        "title": "Debugge, Optimisation et Référencement",
+        "title": "dev web",
         "cover": [
             "./assets/projet_5_01.png"
         ],
@@ -52,7 +52,7 @@
     },
     {
         "id": "06",
-        "title": "Front-end",
+        "title": "dev web",
         "cover": [
             "./assets/projet_06_02.png"
         ],
@@ -71,7 +71,7 @@
     },
     {
         "id": "07",
-        "title": "Back-end",
+        "title": "dev web",
         "cover": [
             "./assets/projet_7_01.png"
         ],
@@ -80,5 +80,67 @@
         ],
         "description": "Mise en place du back-end d'un site de notation de livres. Traitement des requêtes API, optimisation d'image pour du green code, gestion des operation CRUD. Je me suis également occupée de la sécurité du site, hashage de mot de passe, vérification de conformité d'identifiants, mise en securité d'informations sensibles.",
         "skills": "Node JS, Express JS, Mongo DB, .env, bcrypt, Multer, Sharp"
-    }
+    },
+    {
+    "id": "08",
+        "title": "web design",
+        "cover":[ 
+            "./assets/logo_sans_fond.png"
+        ],
+        "pictures": [
+            "./assets/logo_sans_fond.png",
+            "./assets/logo_rond.png",
+            "./assets/logo_cercle_noir.png"
+        ],
+        "description": "Création d'un logo pour l'ouverture d'un centre social, sur des idées de parents.",
+        "skills": [
+            "Pixlr",
+            "Canva pro",
+            "Adobe Express"
+        ]
+    },
+    {
+        "id": "09",
+            "title": "web design",
+            "cover":[ 
+                "./assets/couverture_facebook.png"
+            ],
+            "pictures": [
+                "./assets/couverture_facebook.png",
+                "./assets/couverture_facebook_02.png"
+            ],
+            "description": "Création d'une bannière facebook pour la promotion d'un festival.",
+            "skills": [
+                "Canva pro"
+            ]
+        },
+        {
+            "id": "10",
+                "title": "web design",
+                "cover":[ 
+                    "./assets/flyer_festijoc.png"
+                ],
+                "pictures": [
+                    "./assets/flyer_festijoc.png"
+                ],
+                "description": "Comception de flyers pour un évènement.",
+                "skills": [
+                    "Canva pro"
+                ]
+            },
+            {
+                "id": "11",
+                    "title": "web design",
+                    "cover":[ 
+                        "./assets/Publication_site_web.png"
+                    ],
+                    "pictures": [
+                        "./assets/Publication_site_web.png",
+                        "./assets/Publication_site_web_02.png"
+                    ],
+                    "description": "Article pour publication sur un site web.",
+                    "skills": [
+                        "Canva pro"
+                    ]
+                }
 ]
