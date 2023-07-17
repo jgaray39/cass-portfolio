@@ -1,9 +1,8 @@
-.backgroundImg {
+.background {
   background-image: url('../../assets/img_fond.webp');
   background-size: cover;
   background-repeat: repeat;
   opacity: 0.8;
   width: 100vw;
-  height: 100%;
   min-height: 100vh;
 }

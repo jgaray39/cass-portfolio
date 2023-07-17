@@ -2,7 +2,7 @@ import './Background.css';
 
 function Background () {
     return (
-        <div className="backgroundImg"></div>
+        <div className="background"></div>
     )
 }
 

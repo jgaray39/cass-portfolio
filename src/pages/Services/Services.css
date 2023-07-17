@@ -67,3 +67,17 @@
 .linkPortfolio:hover {
     font-weight: bolder;
 }
+
+@media screen and (max-width: 1099px){ 
+    .services__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10%;
+    }
+        .cardServices {
+            width: 70%;
+        }
+
+}

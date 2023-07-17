@@ -5,6 +5,7 @@ import DataContext from '../../datacontext';
 import BackButton from '../../components/BackButton/BackButton';
 
 function Cards() {
+
   const data = useContext(DataContext);
   const [sortingCriteria, setSortingCriteria] = useState(''); // '' signifie pas de tri
   const [sortedCards, setSortedCards] = useState(data);
@@ -23,8 +24,6 @@ function Cards() {
       setSortedCards(data);
     }
   };
-
-  const handleClick = () => {};
 
   return (
     <div>

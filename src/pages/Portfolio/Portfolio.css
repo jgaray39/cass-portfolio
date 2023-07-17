@@ -1,17 +1,17 @@
 .container {
     position: absolute;
-    top: 0;
+    top: 80px;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 20px;
  }
  .card { 
     position: relative;
      width: 335px;
      height: 255px;
-     margin:20px 15px ;   
+     margin:40px ;   
  }
  .imgCard {
      width: 100%;
@@ -23,21 +23,43 @@
  .buttonsContainer {
     display: flex;
     flex-direction: row ;
-    background-color: red;
+    align-items: center;
     position: absolute;
-    top: 0px;
-    left: 20px;
-    margin: auto 20px;
+    top: 35px;
+    margin: auto;
  }
+    .btnSort {    
+        margin: 10px;
+        background-color: black;
+        padding: 5px 10px;
+        border-radius: 15px;
+        color: aliceblue;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        white-space: nowrap;
+    }
+    .btnSort:hover {
+        cursor: pointer;
+    }
+    
 
  
   @media screen and (min-width: 900px){ 
      .container{
-         margin: 100px;
+         margin: 50px;
      }
      .card { 
-          width: 540px;
-          height: 440px;
+          width: 500px;
+          height: 450px;
       }
-    
+      .buttonsContainer {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+     }
+        .btnSort {    
+            margin: 30px;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
  }
