@@ -16,17 +16,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-    <Background />
-    <LodgingProvider>
-          <Routes>
-            <Route path="/" element={<App />} />
-            <Route path="/Services" element={<Services />} />
-            <Route path='/Portfolio' element={<Portfolio />} />
-            <Route path='/Portfolio/ProjectDetails/:id' element={<ProjectDetails />}/>
-            <Route path='*' element={<Error404 />} />
-          </Routes>
-        <Footer />
-      </LodgingProvider>
+      <Background />
+        <LodgingProvider>
+            <Routes>
+              <Route path="/" element={<App />} />
+              <Route path="/Services" element={<Services />} />
+              <Route path='/Portfolio' element={<Portfolio />} />
+              <Route path='/Portfolio/ProjectDetails/:id' element={<ProjectDetails />}/>
+              <Route path='*' element={<Error404 />} />
+            </Routes>
+          <Footer />
+        </LodgingProvider>
     </Router>
   </React.StrictMode>
 );

@@ -21,23 +21,49 @@
 .services__cards {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-around;
+    width: 90vw;
+    margin: 30px auto;
 }
-.card {
-    background-color: black;
-    color:white;
+.cardServices {
+    background-color: rgb(201, 196, 196);
     border-radius: 15px;
+    box-shadow: 4px 4px 4px;
     padding: 5px;
     text-align: center;
+    width: 30vw;
+    height: 50vh;
 }
-.back {
-    position: absolute;
-    right: 60px;
-    bottom: 60px;
-    color: red;
-    background-color: black;
-    padding: 0 30px;
+    .cardTitle {
+        color: white;
+        background-color: black;
+        border-radius: 30px;
+        box-shadow: 0 4px 4px rgb(49, 47, 47);
+        padding: 4px;
+        font-size: 35px;
+    }
+    .CardDescription {
+        height: 70%;
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+        margin: auto;
+    }
+    .CardDescription li {
+        list-style-type: none;
+        background-color: white;
+        border-radius: 30px;
+        border: solid 2px Black;
+        box-shadow: 0 4px 4px;
+        padding: 4px;
+        font-size: 20px;
+    }
+.linkPortfolio {
+    text-decoration: none;
+    color: black;
 }
-.back p {
-    font-size: 25px;
+.linkPortfolio:hover {
+    font-weight: bolder;
 }

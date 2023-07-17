@@ -2,13 +2,12 @@ import React, {useContext} from 'react';
 import {useParams} from 'react-router-dom';
 import './ProjectDetails.css';
 import DataContext from '../../datacontext';
-import Collaps from "../../components/Collaps/Collaps"
-import Carousel from "../../components/Carousel/Carousel";
-
+import Carousel from '../Carousel/Carousel';
+import Collaps from '../Collaps/Collaps'
 
 
 function ProjectDetails() {
-  const data = useContext(DataContext);   
+  const data = useContext(DataContext); 
   const {id} = useParams()
   
   const dataId = data.find(data => data.id === id);
@@ -18,12 +17,14 @@ if (data.length === 0) {
     <div className="error" >
       <p>Une erreur est survenue, veuillez réessayer.</p>
     </div>
-  );
+  )
 } else
 return (      
-  <div className="projectCard">
+  <div className="projectCard"> 
     <Carousel>
-        {dataId.pictures.map((picture, index) => (
+        {dataId.pictures.map((picture, index) => (  
+           console.log("data", picture), 
+
           <div className="itemPictures" key={index}>
             <img
               className="itemPicture"
@@ -37,15 +38,17 @@ return (
           <div className='itemInformations'>
             <div className="itemTitle">
               <p>{dataId.title}</p>
+              <p>{dataId.id}</p>
+              <p>{dataId.description}</p>
             </div>
          </div>
         </div>
         <div className='collapsSheet'>
           <div >
-            <Collaps  title="Description">
-              <ul className="itemDescription">
-                {dataId.descriptions.map(description => (
-                  <li key={description}>{description}</li>
+            <Collaps  title="skills">
+              <ul className="itemSkills">
+                {dataId.skills.map(skill => (
+                  <li key={skill}>{skill}</li>
                 ))}
               </ul>
             </Collaps> 

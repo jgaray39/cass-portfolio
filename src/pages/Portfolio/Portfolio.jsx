@@ -2,10 +2,10 @@ import React, {useContext} from 'react'
 import { Link } from 'react-router-dom';
 import "./Portfolio.css"
 import DataContext from '../../datacontext'
+import BackButton from '../../components/BackButton/BackButton';
 
 function Cards() {
     const data = useContext(DataContext);   
-
     const handleClick = () => {
     }
     return (    
@@ -19,6 +19,7 @@ function Cards() {
             </figure>
                </Link>
             ))}</div>
+            <BackButton />
         </div>
     )
 }
