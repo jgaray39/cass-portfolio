@@ -12,11 +12,11 @@
     font-family: 'Courier New', Courier, monospace, sans-serif;
     font-size: 50px;
     text-transform: uppercase;
-    text-shadow:8px 8px 8px rgba(255, 0, 0);
+    text-shadow:8px 8px 8px rgba(22, 60, 248);
     background-color: rgba(1, 1, 1);
     padding: 10px 20px;
     border-radius: 15px;
-    color: red; 
+    color: rgb(42, 77, 248); 
 }
 .services__cards {
     display: flex;
@@ -26,13 +26,13 @@
     margin: 30px auto;
 }
 .cardServices {
-    background-color: rgb(201, 196, 196);
+    background-color: rgb(102, 132, 234);
     border-radius: 15px;
     box-shadow: 4px 4px 4px;
     padding: 5px;
     text-align: center;
-    width: 30vw;
-    height: 50vh;
+    width: 35vw;
+    height: 60vh;
 }
     .cardTitle {
         color: white;
@@ -41,10 +41,11 @@
         box-shadow: 0 4px 4px rgb(49, 47, 47);
         padding: 4px;
         font-size: 35px;
+        margin: 10px;
     }
     .CardDescription {
         height: 70%;
-        width: 65%;
+        width: 75%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -76,8 +77,18 @@
         align-items: center;
         gap: 10%;
     }
+        
         .cardServices {
             width: 70%;
+            height: 405px;
         }
+            .cardTitle {
+               font-size: 25px;
+          }
+          .CardDescription {
+            display: flex;
+            gap: 9px;
+            margin-top: 25px;
+          }
 
 }

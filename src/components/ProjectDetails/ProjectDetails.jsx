@@ -4,8 +4,10 @@ import './ProjectDetails.css';
 import DataContext from '../../datacontext';
 import Carousel from '../Carousel/Carousel';
 import Collaps from '../Collaps/Collaps'
+import BackButton from '../BackButton/BackButton'
 
 
+ 
 function ProjectDetails() {
   const data = useContext(DataContext); 
   const {id} = useParams()
@@ -54,6 +56,7 @@ return (
             </Collaps> 
           </div>
           </div>
+          <BackButton />
         </div>
 );
 } 
