@@ -6,7 +6,6 @@ import App from './App';
 import Services from './pages/Services/Services';
 import reportWebVitals from './reportWebVitals';
 import Footer from './components/Footer/Footer';
-import Background from './components/Background/Background';
 import Portfolio from './pages/Portfolio/Portfolio';
 import ProjectDetails from './components/ProjectDetails/ProjectDetails'
 import LodgingProvider from './Project/Project';
@@ -16,7 +15,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <Background />
         <LodgingProvider>
             <Routes>
               <Route path="/" element={<App />} />

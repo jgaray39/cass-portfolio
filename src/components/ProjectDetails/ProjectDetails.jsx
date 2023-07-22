@@ -4,7 +4,8 @@ import './ProjectDetails.css';
 import DataContext from '../../datacontext';
 import Carousel from '../Carousel/Carousel';
 import Collaps from '../Collaps/Collaps'
-import BackButton from '../BackButton/BackButton'
+import PortfolioButton from '../PortfolioButton/PortfolioButton'
+<PortfolioButton />
 
 
  
@@ -56,7 +57,7 @@ return (
             </Collaps> 
           </div>
           </div>
-          <BackButton />
+          <PortfolioButton />
         </div>
 );
 } 
