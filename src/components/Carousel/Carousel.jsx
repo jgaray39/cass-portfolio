@@ -15,9 +15,9 @@ const handlePrev = () => {
 
     
  const index = currentImg + 1
- const counter = props.children.length > 1 ? <p>{index} / {props.children.length} </p> : null
+ const counter = props.children.length > 1 ? <p className='index'>{index} / {props.children.length} </p> : <p className='indexNull'></p>
 const buttons = props.children.length > 1 ? (
-    <div>
+    <div className='allBtnCarousel'>
         <button className='buttonCarousel btnCarouselRight' onClick={handleNext}>
             <img src={nextArrow} alt="suivant" />
         </button> 

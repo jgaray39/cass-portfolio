@@ -7,7 +7,7 @@
         ],
         "pictures": [
             "/assets/projet_2_01.png",
-            "/assets/projet_2_01.png"
+            "/assets/projet_2_02.png"
         ],
         "description": "Developper le front-end, pour un site de recherche d'hébergements et d'activités",
         "skills": [
@@ -79,7 +79,15 @@
             "/assets/projet_7_01.png"
         ],
         "description": "Mise en place du back-end d'un site de notation de livres. Traitement des requêtes API, optimisation d'image pour du green code, gestion des operation CRUD. Je me suis également occupée de la sécurité du site, hashage de mot de passe, vérification de conformité d'identifiants, mise en securité d'informations sensibles.",
-        "skills": "Node JS, Express JS, Mongo DB, .env, bcrypt, Multer, Sharp"
+        "skills": [
+            "Node JS",
+            "Express JS",
+            "Mongo DB",
+            ".env",
+            "bcrypt",
+            "Multer",
+            "Sharp"
+            ]
     },
     {
     "id": "08",

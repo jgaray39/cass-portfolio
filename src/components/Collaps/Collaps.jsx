@@ -11,8 +11,11 @@ const Collaps = ({ title, children }) => {
     <div>
       <button className='buttonCollaps' onClick={toggleCollaps}>
         {title}
-        <img src={openCollaps} alt="parchemin" className='openCollaps'/>
-      </button>
+        <img
+          src={openCollaps}
+          alt="parchemin"
+          className={`openCollaps ${isOpen ? 'open' : 'closed'}`}
+        />      </button>
       {isOpen && children}
     </div>
   );

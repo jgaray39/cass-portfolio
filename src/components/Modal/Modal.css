@@ -46,6 +46,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
     gap: 5px;
 }
 .skillsTitle {
@@ -56,7 +57,28 @@
     margin: 10px;
 }
 .skillsImgNode {
-    min-width: 75px;
+    min-width: 130%;
+}
+.notation {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.level_1 {
+  width: 10px; 
+  height: 15px; 
+  background-color: red;
+}   
+.level_2 {
+    width: 10px; 
+    height: 20px; 
+    background-color: yellow;
+    margin: 2px;
+}
+.level_3 {
+    width: 10px; 
+    height: 25px; 
+    background-color: green;
 }
 
 @media screen and (max-width: 1099px) {

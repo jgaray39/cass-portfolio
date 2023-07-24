@@ -40,15 +40,13 @@ return (
         <div className='containerHostTags'>
           <div className='itemInformations'>
             <div className="itemTitle">
-              <p>{dataId.title}</p>
-              <p>{dataId.id}</p>
               <p>{dataId.description}</p>
             </div>
          </div>
         </div>
-        <div className='collapsSheet'>
+        <div className='collapsSkills'>
           <div >
-            <Collaps  title="skills">
+            <Collaps  title="Compétences">
               <ul className="itemSkills">
                 {dataId.skills.map(skill => (
                   <li key={skill}>{skill}</li>

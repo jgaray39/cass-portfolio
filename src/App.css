@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  height: 100%;
+  height: 190%;
   min-height: 100vh;
   background-color: transparent;
   overflow: auto; /* Active le défilement du contenu lorsque nécessaire */
   background-image: url('../src/assets/img_fond.webp');
   background-size: cover;
   background-repeat: repeat;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
