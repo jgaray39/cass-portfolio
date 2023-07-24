@@ -55,6 +55,7 @@ function ModalSkills() {
             <img className='skillsImgNode' src={nodeExpressLogo} alt="logo node js" />
               <div className='notation'>
                 <div className='level_1'></div>
+                <div className='level_2'></div>
               </div>
         </figure>
         <figure className='skillsCard'>
