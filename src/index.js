@@ -19,8 +19,8 @@ root.render(
             <Routes>
               <Route path="/" element={<App />} />
               <Route path="/Services" element={<Services />} />
-              <Route path='/PortfolioView' element={<Portfolio />} />
-              <Route path='/PortfolioView/ProjectDetails/:id' element={<ProjectDetails />}/>
+              <Route path='/Portfolio' element={<Portfolio />} />
+              <Route path='/Portfolio/ProjectDetails/:id' element={<ProjectDetails />}/>
               <Route path='*' element={<Error404 />} />
             </Routes>
           <Footer />
