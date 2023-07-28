@@ -17,7 +17,7 @@ root.render(
     <Router>
         <LodgingProvider>
             <Routes>
-              <Route path="/Home" element={<App />} />
+              <Route path="/" element={<App />} />
               <Route path="/Services" element={<Services />} />
               <Route path='/Portfolio' element={<Portfolio />} />
               <Route path='/Portfolio/ProjectDetails/:id' element={<ProjectDetails />}/>
