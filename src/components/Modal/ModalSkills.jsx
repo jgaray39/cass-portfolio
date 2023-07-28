@@ -15,7 +15,7 @@ function ModalSkills() {
     <div className='modal'>
       <h2 className='modalTitle'>MES COMPETENCES</h2>
         <img src={myPicture} alt="cassandra laffargue" className="modalPicture" />
-          <p className='modalDescription skillsIcons'>
+          <div className='modalDescription skillsIcons'>
             <figure className='skillsCard'>
               <figcaption className='skillsTitle'>HTML</figcaption>
                 <img src={htmlLogo} alt="logo HTML" />
@@ -82,7 +82,7 @@ function ModalSkills() {
                 <div className='level_1'></div>
                 <div className='level_2'></div>
               </div>        </figure>
-        </p>
+        </div>
     </div>
    ) };
 
