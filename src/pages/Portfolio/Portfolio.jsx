@@ -7,10 +7,10 @@ import BackButton from '../../components/BackButton/BackButton';
 function Cards() {
 
   const data = useContext(DataContext);
-  const [sortingCriteria, setSortingCriteria] = useState(''); // '' signifie pas de tri
+  const [sortingCriteria, setSortingCriteria] = useState(''); //pas de tri
   const [sortedCards, setSortedCards] = useState(data);
 
-  // Gérer le tri lorsqu'un bouton est cliqué
+  // Gérer le tri 
   const handleSort = (criterion) => {
     setSortingCriteria(criterion);
     if (criterion === 'dev web') {
