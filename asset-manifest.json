@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cass-portfolio/static/css/main.9a67db38.css",
-    "main.js": "/cass-portfolio/static/js/main.1923ab87.js",
+    "main.js": "/cass-portfolio/static/js/main.cd4067cc.js",
     "static/js/787.100ce02b.chunk.js": "/cass-portfolio/static/js/787.100ce02b.chunk.js",
     "static/media/img_fond.webp": "/cass-portfolio/static/media/img_fond.bd18149d27bdb70bcf76.webp",
     "static/media/my_picture.jpg": "/cass-portfolio/static/media/my_picture.11074b991f3927c15ab0.jpg",
@@ -13,11 +13,11 @@
     "static/media/js.png": "/cass-portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/cass-portfolio/index.html",
     "main.9a67db38.css.map": "/cass-portfolio/static/css/main.9a67db38.css.map",
-    "main.1923ab87.js.map": "/cass-portfolio/static/js/main.1923ab87.js.map",
+    "main.cd4067cc.js.map": "/cass-portfolio/static/js/main.cd4067cc.js.map",
     "787.100ce02b.chunk.js.map": "/cass-portfolio/static/js/787.100ce02b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a67db38.css",
-    "static/js/main.1923ab87.js"
+    "static/js/main.cd4067cc.js"
   ]
 }
