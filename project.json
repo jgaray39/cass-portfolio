@@ -36,7 +36,7 @@
         "id": "05",
         "title": "dev web",
         "cover": [
-            "/assets/projet_5_01.png"
+            "assets/projet_5_01.png"
         ],
         "pictures": [
             "assets/projet_5_01.png",
@@ -73,10 +73,10 @@
         "id": "07",
         "title": "dev web",
         "cover": [
-            "/assets/projet_7_01.png"
+            "assets/projet_7_01.png"
         ],
         "pictures": [
-            "/assets/projet_7_01.png"
+            "assets/projet_7_01.png"
         ],
         "description": "Mise en place du back-end d'un site de notation de livres. Traitement des requêtes API, optimisation d'image pour du green code, gestion des operation CRUD. Je me suis également occupée de la sécurité du site, hashage de mot de passe, vérification de conformité d'identifiants, mise en securité d'informations sensibles.",
         "skills": [
