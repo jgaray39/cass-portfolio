@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cass-portfolio/static/css/main.9a67db38.css",
+    "main.js": "/cass-portfolio/static/js/main.1923ab87.js",
+    "static/js/787.100ce02b.chunk.js": "/cass-portfolio/static/js/787.100ce02b.chunk.js",
+    "static/media/img_fond.webp": "/cass-portfolio/static/media/img_fond.bd18149d27bdb70bcf76.webp",
+    "static/media/my_picture.jpg": "/cass-portfolio/static/media/my_picture.11074b991f3927c15ab0.jpg",
+    "static/media/React-icon.png": "/cass-portfolio/static/media/React-icon.8a6fc0a24a800d1e0f4a.png",
+    "static/media/pixlr.png": "/cass-portfolio/static/media/pixlr.20decc903936006bc4a8.png",
+    "static/media/css-3.png": "/cass-portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/canva_logo.png": "/cass-portfolio/static/media/canva_logo.a323807ac248d8212c6e.png",
+    "static/media/html-5.png": "/cass-portfolio/static/media/html-5.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/js.png": "/cass-portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/cass-portfolio/index.html",
+    "main.9a67db38.css.map": "/cass-portfolio/static/css/main.9a67db38.css.map",
+    "main.1923ab87.js.map": "/cass-portfolio/static/js/main.1923ab87.js.map",
+    "787.100ce02b.chunk.js.map": "/cass-portfolio/static/js/787.100ce02b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a67db38.css",
+    "static/js/main.1923ab87.js"
+  ]
+}
